@@ -1,0 +1,105 @@
+(footprint "ESP32-5.0 Inch HMI 800x480 RGB" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0.3 -7.7 unlocked) (layer "Dwgs.User")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 524824fe-a7a3-4d39-81ae-8062bca7abbb)
+  )
+  (fp_text value "ESP32-5.0 Inch HMI 800x480 RGB" (at -0.2 -11.3 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 1217e283-575b-430b-b6e2-b3feb4569173)
+  )
+  (fp_text user "${REFERENCE}" (at -0.2 -9.8 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4b1e1454-9caa-4c9a-af93-be2a373b87a6)
+  )
+  (fp_line (start -70 -81) (end -70 -7.1)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp c1035d58-9fac-4dc1-80b3-b6e798680fc0))
+  (fp_line (start -67 -4.1) (end 64.2 -4.1)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 466e2d17-9bed-4220-9e9a-49278fa6af24))
+  (fp_line (start -61.75 -82.2) (end -61.75 -5.9)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 95de8190-a06f-45b0-a69d-65fd2b82a7f2))
+  (fp_line (start -61.75 -5.9) (end 58.95 -5.9)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 4383abc0-be85-47fe-a941-08e5cb9c600a))
+  (fp_line (start -56.100315 -79.197983) (end -56.100315 -13.39824)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 5b7809ee-b0eb-4113-bb3d-7d2a5a65d514))
+  (fp_line (start -56.100315 -13.39824) (end 55.295003 -13.39824)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 48841340-14ed-4068-aeec-c5026518597c))
+  (fp_line (start 55.295003 -79.197983) (end -56.100315 -79.197983)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 49d8ef9d-8f34-4dab-b2a9-a7869c2f2b4c))
+  (fp_line (start 55.295003 -13.39824) (end 55.295003 -79.197983)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp f2f09870-4b24-4f75-a150-39250b333b0a))
+  (fp_line (start 58.95 -82.2) (end -61.75 -82.2)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp cffb96dd-2dae-4c92-b3b8-8988df11a031))
+  (fp_line (start 58.95 -5.9) (end 58.95 -82.2)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp db728817-c53a-45ce-a805-641f32e4a600))
+  (fp_line (start 64.2 -84) (end -67 -84)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 2682d3e2-f431-4a0f-9d88-efee04c79ac9))
+  (fp_line (start 67.2 -7.1) (end 67.2 -81)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp c6fedf4a-2a9f-4d67-9288-09cba8c3cf35))
+  (fp_arc (start -70 -81) (mid -69.12132 -83.12132) (end -67 -84)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 6c35ad4d-6672-40c7-a0a6-b8ba9e98ee22))
+  (fp_arc (start -67 -4.1) (mid -69.12132 -4.97868) (end -70 -7.1)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp dd2bb74a-447b-4c6f-ba58-1e93ae7d672d))
+  (fp_arc (start 64.2 -84) (mid 66.32132 -83.12132) (end 67.2 -81)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 6dbb8bc8-e01a-4e50-beec-4efe2e769db9))
+  (fp_arc (start 67.2 -7.1) (mid 66.32132 -4.97868) (end 64.2 -4.1)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 03129d69-9ffe-41b6-b97f-0f18df99ae5c))
+  (fp_circle (center -66.5 -7.6) (end -64.9 -7.6)
+    (stroke (width 0.25) (type solid)) (fill none) (layer "F.SilkS") (tstamp 47e11a9a-7189-4ecd-b74a-a024348e4164))
+  (fp_circle (center -66.5 -7.6) (end -63.751373 -7.6)
+    (stroke (width 0.25) (type solid)) (fill none) (layer "F.SilkS") (tstamp ab49b108-954c-4480-8b1a-fd178cb447c3))
+  (fp_circle (center -66.443 -80.5) (end -64.843 -80.5)
+    (stroke (width 0.25) (type solid)) (fill none) (layer "F.SilkS") (tstamp 4a3e5752-7275-4660-8208-7b2718e304b0))
+  (fp_circle (center -66.443 -80.5) (end -63.697497 -80.5)
+    (stroke (width 0.25) (type solid)) (fill none) (layer "F.SilkS") (tstamp df6766dc-f701-4fe7-998a-1e430de8bd6f))
+  (fp_circle (center 63.7 -80.5) (end 65.3 -80.5)
+    (stroke (width 0.25) (type solid)) (fill none) (layer "F.SilkS") (tstamp 14de8f42-9d94-4661-9866-138f674e11a1))
+  (fp_circle (center 63.7 -80.5) (end 66.453289 -80.5)
+    (stroke (width 0.25) (type solid)) (fill none) (layer "F.SilkS") (tstamp 601d5281-80cd-4f2a-87bb-1dd3818f5d67))
+  (fp_circle (center 63.7 -7.6) (end 65.3 -7.6)
+    (stroke (width 0.25) (type solid)) (fill none) (layer "F.SilkS") (tstamp 877c2b43-3bbc-4fe7-8178-e3de2bdf88b6))
+  (fp_circle (center 63.7 -7.6) (end 66.449088 -7.6)
+    (stroke (width 0.25) (type solid)) (fill none) (layer "F.SilkS") (tstamp af6bb155-d9d6-44ad-af15-f1a134140c5c))
+  (fp_circle (center -66.5 -7.6) (end -64.9 -7.6)
+    (stroke (width 0.05) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 121ec11a-100f-4a2f-9f56-1a5d09e9ed19))
+  (fp_circle (center -66.45 -80.5) (end -64.85 -80.5)
+    (stroke (width 0.05) (type default)) (fill none) (layer "Edge.Cuts") (tstamp ae56e5d3-4f63-4caa-adb4-15b24a56ae1d))
+  (fp_circle (center 63.7 -80.5) (end 65.3 -80.5)
+    (stroke (width 0.05) (type default)) (fill none) (layer "Edge.Cuts") (tstamp bab0d682-16cf-4714-a5c0-f91174dd57e0))
+  (fp_circle (center 63.7 -7.6) (end 65.3 -7.6)
+    (stroke (width 0.05) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 408eab67-0168-404b-a0ad-8b3875f289a3))
+  (group "" (id 9101a4c5-6d68-4f6c-a1db-e18b29157168)
+    (members
+      03129d69-9ffe-41b6-b97f-0f18df99ae5c
+      14de8f42-9d94-4661-9866-138f674e11a1
+      2682d3e2-f431-4a0f-9d88-efee04c79ac9
+      4383abc0-be85-47fe-a941-08e5cb9c600a
+      466e2d17-9bed-4220-9e9a-49278fa6af24
+      47e11a9a-7189-4ecd-b74a-a024348e4164
+      48841340-14ed-4068-aeec-c5026518597c
+      49d8ef9d-8f34-4dab-b2a9-a7869c2f2b4c
+      4a3e5752-7275-4660-8208-7b2718e304b0
+      5b7809ee-b0eb-4113-bb3d-7d2a5a65d514
+      601d5281-80cd-4f2a-87bb-1dd3818f5d67
+      6c35ad4d-6672-40c7-a0a6-b8ba9e98ee22
+      6dbb8bc8-e01a-4e50-beec-4efe2e769db9
+      877c2b43-3bbc-4fe7-8178-e3de2bdf88b6
+      95de8190-a06f-45b0-a69d-65fd2b82a7f2
+      ab49b108-954c-4480-8b1a-fd178cb447c3
+      af6bb155-d9d6-44ad-af15-f1a134140c5c
+      c1035d58-9fac-4dc1-80b3-b6e798680fc0
+      c6fedf4a-2a9f-4d67-9288-09cba8c3cf35
+      cffb96dd-2dae-4c92-b3b8-8988df11a031
+      db728817-c53a-45ce-a805-641f32e4a600
+      dd2bb74a-447b-4c6f-ba58-1e93ae7d672d
+      df6766dc-f701-4fe7-998a-1e430de8bd6f
+      f2f09870-4b24-4f75-a150-39250b333b0a
+    )
+  )
+  (model "C:/Users/pcadi/SynologyDrive/ESP32 display-5.0 Inch HMI Display 800x480 RGB/ESP32 display-5.0 Inch HMI Display 800x480 RGB.STEP"
+    (offset (xyz -1 43.5 6))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

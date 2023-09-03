@@ -1,0 +1,59 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 81881e10-7cae-4e6e-9d7a-eab6146a8dfe)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "elecrow5hmi-display:ESP32_display-5.0_Inch_HMI_Display_800x480_RGB" (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "ESP32_display-5.0_Inch_HMI_Display_800x480_RGB_1_1"
+        (pin no_connect line (at -2.54 2.54 0) (length 2.54)
+          (name "ESP32-5.0_HMI" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "elecrow5hmi-display:ESP32_display-5.0_Inch_HMI_Display_800x480_RGB") (at 27.94 27.6352 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d7eb39c3-8724-4edb-9813-62c4604c418e)
+    (property "Reference" "U1" (at 29.21 25.0952 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "~" (at 27.94 27.6352 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "elecrow5hmi:ESP32-5.0 Inch HMI 800x480 RGB" (at 27.94 27.6352 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 27.94 27.6352 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2dd57a99-3f9f-47cf-a726-2cbf37c2d7b8))
+    (instances
+      (project "ELECROW5HMI"
+        (path "/81881e10-7cae-4e6e-9d7a-eab6146a8dfe"
+          (reference "U1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
